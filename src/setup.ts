@@ -4,7 +4,7 @@ import { join } from "path";
 function clone() {
     console.log('[INFO] Cloning Ultroid to [root://TeamUltroid]');
     ChildProcess.execSync(
-        `git clone https://github.com/TeamUltroid/Ultroid TeamUltroid ${process.env.dev ? '-b dev': ''}`,
+        `git clone https://github.com/New-Dev0/Ultroid TeamUltroid ${process.env.dev ? '-b dev': ''}`,
     );
     console.log('[INFO] Successfully cloned Ultroid to [root://TeamUltroid]');
 }
